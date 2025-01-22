@@ -551,11 +551,11 @@ void hardware_init(void)
 {
     // const unsigned char indicator[] = "hardware_init";
     BSP_EI();
-    R_Config_UART0_Start();         // UART , P15 , P16
+    R_Config_UART0_Start();         // UART0 , P15/TX , P16/RX
     R_Config_TAU0_1_Start();        // TIMER
     R_Config_INTC_INTP0_Start();    // BUTTON , P137 
     
-    R_Config_UART1_Start();
+    R_Config_UART1_Start();         // UART1 , P74/TX , P75/RX
 
     delayMearsurement_in_polling();
     STMK1 = 1U;    /* disable INTST1 interrupt */
