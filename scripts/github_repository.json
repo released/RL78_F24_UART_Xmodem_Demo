@@ -1,0 +1,30 @@
+{
+  "repository": "released/RL78_F24_UART_Xmodem_Demo",
+  "repository_id": 920350497,
+  "visibility": "PUBLIC",
+  "branch": "main",
+  "title": "RL78_F24_UART_Xmodem_Demo",
+  "previous_title": "RL78_F24_XmodemTransfer",
+  "previous_head": "ee9bd9dde4e7dfd94d6ed79c7219343547ab9965",
+  "metadata_paths": [
+    ".gitignore",
+    "QualityReport(RL78_F24_XmodemTransfer,DefaultBuild).txt",
+    "README.md",
+    "RL78_F24_UART_Xmodem_Demo.mtpj",
+    "RL78_F24_UART_Xmodem_Demo.rcpe",
+    "RL78_F24_UART_Xmodem_Demo.scfg",
+    "RL78_F24_XmodemTransfer.AveryC.mtud",
+    "RL78_F24_XmodemTransfer.mtpj",
+    "RL78_F24_XmodemTransfer.rcpe",
+    "RL78_F24_XmodemTransfer.scfg",
+    "build.ps1",
+    "github_push.bat",
+    "scripts/clean_intermediates.ps1",
+    "scripts/clean_obj.bat",
+    "scripts/github_publish.ps1",
+    "scripts/github_publish_core.ps1",
+    "scripts/github_repository.json",
+    "scripts/runtime_contract.json",
+    "scripts/verify_project.ps1"
+  ]
+}

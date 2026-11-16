@@ -5,7 +5,7 @@
     <PlaceholderPrefix>%</PlaceholderPrefix>
     <PlaceholderPostfix>%</PlaceholderPostfix>
   </Placeholders>
-  <Project Name="RL78_F24_XmodemTransfer" Type="Application">
+  <Project Name="RL78_F24_UART_Xmodem_Demo" Type="Application">
     <Files>
       <Path>main.c</Path>
       <Category Name="Smart Configurator">
@@ -252,8 +252,8 @@
     </BuildOptions>
     <Extension_SmcCodePartRL78>
       <CodeGeneratorData></CodeGeneratorData>
-      <GenerateFileFolder>D:\SourceCode\Renesas\CS+\RL78_F24_XmodemTransfer</GenerateFileFolder>
-      <SCFGFile>RL78_F24_XmodemTransfer.scfg</SCFGFile>
+      <GenerateFileFolder>.</GenerateFileFolder>
+      <SCFGFile>RL78_F24_UART_Xmodem_Demo.scfg</SCFGFile>
       <SmcExePath>C:\Program Files (x86)\Renesas Electronics\SmartConfigurator\RL78\eclipse\SmartConfigurator.exe</SmcExePath>
       <CodeGeneratorFilesGuid>f1f83d28-5e28-4ba0-8eef-43d900de5bac</CodeGeneratorFilesGuid>
     </Extension_SmcCodePartRL78>

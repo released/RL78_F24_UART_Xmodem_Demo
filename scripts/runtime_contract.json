@@ -1,0 +1,263 @@
+{
+  "schema": 1,
+  "project": "RL78_F24_UART_Xmodem_Demo",
+  "normalization": "UTF-8 text without BOM, CRLF to LF",
+  "files": [
+    {
+      "path": "custom_func.c",
+      "sha256": "0be38e7cbfdbb0eaba813fac06ee8a6f80f403d8f4da3e3915bd9bcd7e03f367"
+    },
+    {
+      "path": "custom_func.h",
+      "sha256": "105a4fbe82aa3b53726ae3f0a865b6963361e7c230b6e4e9dbc334e7c7504889"
+    },
+    {
+      "path": "f24opt.asm",
+      "sha256": "a9d7d39d9ce398ca425bd24831d5ba075d32c0ee19bd779ec5de470bc4416811"
+    },
+    {
+      "path": "iodefine.h",
+      "sha256": "503c0edc56e70022ddce791255b8a8c0ac1e8275e2cd5e912dacbed1aaf68044"
+    },
+    {
+      "path": "main.c",
+      "sha256": "09cf80da3682dcdc98a88544963017f03d70462cf993a6f623a8d6f50589136c"
+    },
+    {
+      "path": "misc_config.c",
+      "sha256": "2572c50eb5ef90f5eb3a790757eaa2f98c04e77e3c8349b1e86f2f7755373aea"
+    },
+    {
+      "path": "misc_config.h",
+      "sha256": "0bf69407254c2867abb33310a8de824841c568fe445192b47729c6a6f6cd8fe0"
+    },
+    {
+      "path": "RL78_F24_UART_Xmodem_Demo.mtpj",
+      "sha256": "11395a40315c1595792a9f38ba03f7ea2b92af0561a2f6bc864be945312d1315"
+    },
+    {
+      "path": "RL78_F24_UART_Xmodem_Demo.rcpe",
+      "sha256": "29c86f06b0ee9359083f8bd505a0b711aabf04b1e9410d1fafe4411661fc36bb"
+    },
+    {
+      "path": "RL78_F24_UART_Xmodem_Demo.scfg",
+      "sha256": "43332ddce119f6dffc9944639479879a5bd90fd12e1ea49fab9bda107c0220de"
+    },
+    {
+      "path": "src/smc_gen/Config_INTC/Config_INTC.c",
+      "sha256": "d9df6231189aa8b78bb0ca6609dd94f0506ad8c5a4f4f7942a5aec6fec7fb9d0"
+    },
+    {
+      "path": "src/smc_gen/Config_INTC/Config_INTC.h",
+      "sha256": "d5c5eef5a54894cd9780d3782881f49770e06968c6fcc5caff155cca0e74fee3"
+    },
+    {
+      "path": "src/smc_gen/Config_INTC/Config_INTC_user.c",
+      "sha256": "eebdc6268a63737eb5371af097a6085301ac6866a6a8a8464fb4d3d36ff74fcd"
+    },
+    {
+      "path": "src/smc_gen/Config_PORT/Config_PORT.c",
+      "sha256": "c455afe8c13cad42b8caaf23834f98a22bd26cc91578b51343e7f026c658124f"
+    },
+    {
+      "path": "src/smc_gen/Config_PORT/Config_PORT.h",
+      "sha256": "f7c6ba11a854e510a8fee5103846acb003b84b7b482a8eb15246d34a65a4e16c"
+    },
+    {
+      "path": "src/smc_gen/Config_PORT/Config_PORT_user.c",
+      "sha256": "9e56a38dcf30f4c4a13c96353157a79647f5c7480ca50f5adee02089d85caf78"
+    },
+    {
+      "path": "src/smc_gen/Config_TAU0_0/Config_TAU0_0.c",
+      "sha256": "f1bcfc695dd6cf38fd9558d0457fa06fbb0860491a523506260877e74d1b4996"
+    },
+    {
+      "path": "src/smc_gen/Config_TAU0_0/Config_TAU0_0.h",
+      "sha256": "059dc00d672b74c41f187c60556d47bfd12a93763ce26da4df50157b38ce05f7"
+    },
+    {
+      "path": "src/smc_gen/Config_TAU0_0/Config_TAU0_0_user.c",
+      "sha256": "d29811e5191ab4e31de2ffc756fc89bb647353863203e882504130a41a5d82dc"
+    },
+    {
+      "path": "src/smc_gen/Config_TAU0_1/Config_TAU0_1.c",
+      "sha256": "92ea518392bbc712055952ed11a9233d49f5c39fbd432a1cd607de98412670e5"
+    },
+    {
+      "path": "src/smc_gen/Config_TAU0_1/Config_TAU0_1.h",
+      "sha256": "5be3234845396eaf2ffd2e21fdd5214b756c14f44932a01a487a922d74f331c0"
+    },
+    {
+      "path": "src/smc_gen/Config_TAU0_1/Config_TAU0_1_user.c",
+      "sha256": "a79b4098f72e0d01740e11caca9d32de64582a42570785a0ec2fa789a4c10c1f"
+    },
+    {
+      "path": "src/smc_gen/Config_UART0/Config_UART0.c",
+      "sha256": "1f2d80a0efb96697c884943109a66b385e50f9d3640531813632e489b0e9daa2"
+    },
+    {
+      "path": "src/smc_gen/Config_UART0/Config_UART0.h",
+      "sha256": "5ef8f0f79defde02601ea29f416e3db6f2638e09a6e5a3406641ca54c2b45e50"
+    },
+    {
+      "path": "src/smc_gen/Config_UART0/Config_UART0_user.c",
+      "sha256": "4816a731f5bf16d7b7ebd7418795e7679361d0da184f28c3ab8ea81c5c7b4549"
+    },
+    {
+      "path": "src/smc_gen/Config_UART1/Config_UART1.c",
+      "sha256": "971f7d5582530018d7ab72da98e11c9da04980f68950131b4dd9abb03d39fd6e"
+    },
+    {
+      "path": "src/smc_gen/Config_UART1/Config_UART1.h",
+      "sha256": "253ae5848166389eb6ea9c1027dd8d1cd68ec2d8cda0ca69dd627cefeaf7625c"
+    },
+    {
+      "path": "src/smc_gen/Config_UART1/Config_UART1_user.c",
+      "sha256": "36ff032a0626f23183e6d30ba8552d454f0ee1fa3a71a50aaa9f3bc25298d51e"
+    },
+    {
+      "path": "src/smc_gen/general/r_cg_intc.h",
+      "sha256": "f36b76cd6e12a11aaaba3ecb4aad8b7c7c939e9b9bcbd08b274defde7b872589"
+    },
+    {
+      "path": "src/smc_gen/general/r_cg_macrodriver.h",
+      "sha256": "fd9e4fc81b1974a8f281172e6ea5e579584e9aa964b4fe84f8bd7fa452de5509"
+    },
+    {
+      "path": "src/smc_gen/general/r_cg_port.h",
+      "sha256": "a020c76d9bcad02b9633dc4ea9931a19df9a46355efb556fbc4920d8968e38ea"
+    },
+    {
+      "path": "src/smc_gen/general/r_cg_sau.h",
+      "sha256": "094b8b2f5748a3eeeb1f6de720aef4308b8a8c47dec48adc6ac7a652d63c519e"
+    },
+    {
+      "path": "src/smc_gen/general/r_cg_sau_common.c",
+      "sha256": "cc674ed40ba13602de231b24b4596549dcae4aa409c99ef4bd790734885792f1"
+    },
+    {
+      "path": "src/smc_gen/general/r_cg_sau_common.h",
+      "sha256": "3575c59cf4d7341762ec64e06fa75a2125d3a7f1765dee040e5b072b197f31aa"
+    },
+    {
+      "path": "src/smc_gen/general/r_cg_systeminit.c",
+      "sha256": "f8b68911a4ab14d9a7efb8f9c649c418521a756049141512298633c11a30c776"
+    },
+    {
+      "path": "src/smc_gen/general/r_cg_tau.h",
+      "sha256": "3c5feda4c852b6357f4beae67620285c924b23f0dffd85d3efa89841b917ad22"
+    },
+    {
+      "path": "src/smc_gen/general/r_cg_tau_common.c",
+      "sha256": "ad4858ada1f2a36ec023537098f7970da7f849119ac4902dd57ea985e18380be"
+    },
+    {
+      "path": "src/smc_gen/general/r_cg_tau_common.h",
+      "sha256": "3b0db6d1ac7a5f41bc1fb7c6c46eff22bbfd59d316f5930db01dcbde21139caa"
+    },
+    {
+      "path": "src/smc_gen/general/r_cg_userdefine.h",
+      "sha256": "5837737ed8bba50937305659126052efdf3aaf8fb5dd06ac732adcd46620da9a"
+    },
+    {
+      "path": "src/smc_gen/general/r_smc_entry.h",
+      "sha256": "1748aa85ce8f70ea5574fa711fe63724db41a3886537d207f0b2b98b31163d7a"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/board/generic_rl78_f24/hdwinit.c",
+      "sha256": "2955fe1f30548e2721c492cb0798bc01ee15605a715a22e429903ddc58e921f3"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/board/generic_rl78_f24/hdwinit.h",
+      "sha256": "95d2813d92818a7a2d209e4d6e8ffd4d16cf97ed11f95786235162c4e3c22415"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/board/generic_rl78_f24/r_bsp.h",
+      "sha256": "6235be3088bca02ec3700a74f12d401949933aac33db695aa938cc52750275f8"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/board/generic_rl78_f24/r_bsp_config_reference.h",
+      "sha256": "87a574a495b7a305a844b88a56fa45c40b0aaf6e9b6fb2c4b516863ab4dd7712"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/board/generic_rl78_f24/r_bsp_init.c",
+      "sha256": "ab8413b55df3d361776cdcdac357ecad720a8d612ba7f217c72d20aad40b65df"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/board/generic_rl78_f24/stkinit.asm",
+      "sha256": "dd0919af71a77e0fbf5dd2675e46eddd1c6029c6362f8ee98cbbc07cb3f62e9e"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/mcu/all/cstart.asm",
+      "sha256": "77eb46c0508353d5d142e069cd96a3f46155d28fb0c6cab3f0976c67b0415d03"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/mcu/all/fsp_common_api.h",
+      "sha256": "45da5079295cb11526a58baf7d103d40d3ef71df99727789cc6426ea986df056"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/mcu/all/r_bsp_common.c",
+      "sha256": "47a10e62bd61d05f2ddbbcd0a41a7bd237a50a710f666361e462b547f79a6222"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/mcu/all/r_bsp_common.h",
+      "sha256": "053d7a685b2a217fced535cb406a3db90f67e0025f89dade73bd17643a81cb9b"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/mcu/all/r_bsp_common_ccrl.asm",
+      "sha256": "e638c626bc5574871ea43f7d3e1939404c326b280a92ee700fc564f2d2f5f751"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/mcu/all/r_bsp_rl78_compiler.h",
+      "sha256": "10d59cfedddc9ed871b93b779d6959b1080a33b72525b2564dc87feccc773118"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/mcu/all/r_fsp_error.h",
+      "sha256": "d16faf8a72b325260593ad02b21869f5274bd2fd52aefe770000ebb60b44d1c1"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/mcu/all/r_rtos.h",
+      "sha256": "0655f9c4289fa0759206b633edc4d47f95dc94bb69e44453011578113e9221fa"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/mcu/rl78_f24/mcu_clocks.c",
+      "sha256": "109d657b2c915adfdb3f848b7dab0407eacbefc4a4caf96aa97e5ee934dc611c"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/mcu/rl78_f24/mcu_clocks.h",
+      "sha256": "b37aefe3eb4f1437887cc3601eef94d4d1337fc2c0a05dafa76bf6b5d510bc8d"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/mcu/rl78_f24/mcu_info.h",
+      "sha256": "2e8545374bb314b1c54540979a54a6b50abb3feb0ebfb130672aeace828c564f"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/mcu/rl78_f24/register_access/ccrl/iodefine.h",
+      "sha256": "1b1e1be873096b88481b72ba5b61978fe571e28ae7b139ce345f74ccba0e406a"
+    },
+    {
+      "path": "src/smc_gen/r_bsp/platform.h",
+      "sha256": "265f776524287013e4b8db2c4d545a08fa02f3482d4bf6871e3c1767048447bb"
+    },
+    {
+      "path": "src/smc_gen/r_config/r_bsp_config.h",
+      "sha256": "2c34f7aa2730411cc8031f223b6de1f97abd28acc6dcdc5d3e46c66e301ea4a6"
+    },
+    {
+      "path": "src/smc_gen/r_pincfg/Pin.c",
+      "sha256": "8fa86a13e12fed19965b25c29de8f6c72a6d6a767a1e1964aad9de6b2349d5a5"
+    },
+    {
+      "path": "src/smc_gen/r_pincfg/Pin.h",
+      "sha256": "a515ba41fc4945017b2b33a7a2a5f47af644a58367a5a62ba7df44947f490a72"
+    },
+    {
+      "path": "xmodem.c",
+      "sha256": "8b1fdf3725010c04d03a27ebbb1475a8fadebe2615c2c43b72d38db65b53b316"
+    },
+    {
+      "path": "xmodem.h",
+      "sha256": "d92b73fb31e16a756af770834fe5abcdfe99d5acf4a843bf036972b583d0bef7"
+    }
+  ]
+}
